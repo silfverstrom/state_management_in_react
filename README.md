@@ -19,12 +19,12 @@ The function exports an anonymous React Component, using class syntax, which bin
 
 ```
 
-In our component, HocDemo, we then wrap our component using connect, 
+In our component, UsersContainer, we then wrap our component using connect, 
 
 
 ```javascript
 
-export default connect(HocDemo);
+export default connect(UsersContainer);
 
 ```
 
