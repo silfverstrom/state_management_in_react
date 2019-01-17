@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import HocDemo from './hoc/HocDemo';
+import React from 'react';
+import { UsersContainer } from './hoc_demo';
 
 function App(props) {
     return (
         <div className='state-container'> 
             <div>
                 <h1> A small demo demonstrating a Higher Order Component </h1>
-                <HocDemo />
+                <UsersContainer />
             </div>
         </div>
     );

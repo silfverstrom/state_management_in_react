@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import connect from './connect';
 
-function HocDemo(props) {
+function UsersContainer(props) {
     const { dispatcher, getState } = props;
 
     function addNewUser() {
@@ -20,4 +20,4 @@ function HocDemo(props) {
     );
 }
 
-export default connect(HocDemo);
+export default connect(UsersContainer);
